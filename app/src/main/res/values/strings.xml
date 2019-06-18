@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Woofy</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="no_internet_message">There is no Internet connection. Please check your connection and try again.
+    </string>
+</resources>
