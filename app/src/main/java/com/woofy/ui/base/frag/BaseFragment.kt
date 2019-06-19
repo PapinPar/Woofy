@@ -52,7 +52,7 @@ abstract class BaseFragment<T : BaseFragmentPresenter<V>, V : BaseFragmentView> 
 
     private fun buildAlertDialog(message: String, isNeedNegativeButton: Boolean) {
         if (activity != null) {
-            val builder = BaseAlertDialog.Builder(activity!!, R.color.colorAccent)
+            val builder = BaseAlertDialog.Builder(activity!!, R.color.mainBlue)
                 .setMessage(message)
                 .setPositiveButton(getString(R.string.ok)) { dialog, _ ->
                     dialog.dismiss()

@@ -88,7 +88,7 @@ abstract class BaseActivity<T : BasePresenter<V>, V : BaseView> : AppCompatActiv
     }
 
     private fun buildAlertDialog(message: String, isNeedNegativeButton: Boolean) {
-        val builder = BaseAlertDialog.Builder(this, R.color.colorAccent)
+        val builder = BaseAlertDialog.Builder(this, R.color.mainBlue)
             .setMessage(message)
             .setPositiveButton(getString(R.string.ok)) { dialog, _ ->
                 dialog.dismiss()

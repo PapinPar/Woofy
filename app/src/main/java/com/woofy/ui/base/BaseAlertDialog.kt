@@ -61,7 +61,7 @@ abstract class BaseAlertDialog : android.app.AlertDialog {
             alertDialog.setOnShowListener {
                 val color = ResourcesCompat.getColor(
                     context.resources,
-                    if (buttonColor == -1) R.color.colorAccent else buttonColor,
+                    if (buttonColor == -1) R.color.mainBlue else buttonColor,
                     context.theme
                 )
                 var button: Button?

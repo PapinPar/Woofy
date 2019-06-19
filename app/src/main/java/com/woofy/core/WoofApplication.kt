@@ -9,7 +9,7 @@ class WoofApplication : Application() {
         lateinit var instance: WoofApplication
     }
 
-    private lateinit var netManager: RestAPI
+    internal lateinit var netManager: RestAPI
 
     override fun onCreate() {
         super.onCreate()
